@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>{{ title }}</title>
+</head>
+<body>
+    <header>
+        <h1>{{ heading }}</h1>
+        <nav>
+            <ul>
+                <li><a href="{{ link1 }}">{{ link1Text }}</a></li>
+                <li><a href="{{ link2 }}">{{ link2Text }}</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <h2>Welcome, {{ username }}!</h2>
+        <p>{{ content }}</p>
+    </main>
+</body>
+</html>

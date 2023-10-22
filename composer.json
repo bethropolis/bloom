@@ -1,0 +1,21 @@
+{
+    "name": "bethropolis/bloom",
+    "description": "a php templating library",
+    "type": "library",
+    "require-dev": {
+        "phpunit/phpunit": "^10.4"
+    },
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Bethropolis\\Bloom\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Bethropolis",
+            "email": "bethropolis+php@gmail.com"
+        }
+    ],
+    "require": {}
+}

@@ -1,0 +1,3 @@
+<h1>nav: {{ title }}</h1>
+
+@include('button')
